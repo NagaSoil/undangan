@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.Invitation {
+    /* display: flex; */
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh;
+    background-color: aqua;
+    width: 90%;
+    height: auto;
+}
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: brown;
+    align-items: center; 
+    justify-content: center; 
+    height: 100%;
+}
+
+.Info-mempelai {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+    justify-content: center; 
+    background-color: aquamarine;
+    height: 100%;
+}
+
+.gambar-mempelai {
+    width: 100px;           
+    height: 100px;           
+    border-radius: 50%;      
+    border: 5px solid red;   
+    object-fit: cover;
+}
+
+.Info-acara {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+    justify-content: center; 
+    background-color: rgb(214, 119, 30);
+    height: 100%;
+}
+
+.Countdown {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+    justify-content: center; 
+    background-color:blueviolet;
+    height: 100%;
+}
+
+.Navigasi {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+    justify-content: center; 
+    background-color:rgb(23, 197, 131);
+    height: 100%;
+}
+
+.Quotes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+    justify-content: center; 
+    background-color:rgb(81, 54, 191);
+    height: 100%;
+}
+
+.Ucapan {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+    justify-content: center; 
+    background-color:rgb(173, 191, 54);
+    height: 100%;
+}
